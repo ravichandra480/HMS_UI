@@ -5,11 +5,12 @@
   "main": "index.html",
   "dependencies": {
     "body-parser": "^1.12.4",
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "http-server":"latest"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node server.js"
+    "test": "http-server"
   },
   "keywords": [
     "Hotel",
